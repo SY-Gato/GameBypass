@@ -3,9 +3,22 @@
   <head>
     <script src="./Effects/three.r134.min.js"></script>
     <script src="./Effects/vanta.waves.min.js"></script>
-    <script></script>
+    <script scr="./waves-controller.js"></script>
     <style>
-      
+      * {
+        box-sizing: border-box;
+        font-family: monospace;
+      }
+      body {
+        margin: 0;
+      }
+      .game-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
