@@ -3,7 +3,18 @@
   <head>
     <script src="./Effects/three.r134.min.js"></script>
     <script src="./Effects/vanta.waves.min.js"></script>
-    <script scr="./waves-controller.js"></script>
+    <script>
+      VANTA.WAVES({
+  el: "#game-container",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+    </script>
     <style>
       * {
         box-sizing: border-box;
